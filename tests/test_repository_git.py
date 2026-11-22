@@ -70,10 +70,14 @@ def test_actual_branch_remote_index_and_ignore_failures_are_retained(candidate: 
 
 
 def test_published_checkout_accepts_only_the_canonical_origin(candidate: Path) -> None:
-    """Accept the canonical origin, with or without .git, and refuse every other remote."""
+    """Accept the canonical origin, with or without .git; refuse any other fetch or push URL."""
     _git(candidate, "remote", "add", "origin", PUBLIC_REMOTE)
     assert inspect_repository_git(candidate) == ()
     _git(candidate, "remote", "set-url", "origin", PUBLIC_REMOTE + ".git")
+    assert inspect_repository_git(candidate) == ()
+    _git(candidate, "remote", "set-url", "--push", "origin", PUBLIC_REMOTE + "-fork")
+    assert {x.code for x in inspect_repository_git(candidate)} == {"remote_not_canonical"}
+    _git(candidate, "remote", "set-url", "--push", "origin", PUBLIC_REMOTE)
     assert inspect_repository_git(candidate) == ()
     _git(candidate, "remote", "set-url", "origin", PUBLIC_REMOTE + "-fork")
     assert {x.code for x in inspect_repository_git(candidate)} == {"remote_not_canonical"}
