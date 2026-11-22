@@ -3,7 +3,7 @@
   "claims": [],
   "domain_runtime_dependencies": [],
   "evidence_maturity": "architecture_only",
-  "lifecycle": "local_scaffold",
+  "lifecycle": "public_repository",
   "owner_group": "SC-NEUROMORPHIC-COMPUTING-SYSTEMS",
   "planned_owned_schema_ids": [
     "circuit_prototyping.design_intake_record.v1",
@@ -14,6 +14,7 @@
     "circuit_prototyping.debug_capture_record.v1",
     "circuit_prototyping.host_coemulation_binding.v1"
   ],
+  "public_remote": "https://github.com/anulum/circuit-prototyping",
   "qualified_owned_schema_ids": [],
   "repository_name": "CIRCUIT-PROTOTYPING",
   "tooling_python": {

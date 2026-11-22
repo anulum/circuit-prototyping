@@ -2,11 +2,11 @@
   "capabilities": [],
   "claims": [],
   "evidence_maturity": "architecture_only",
-  "lifecycle": "local_scaffold",
+  "lifecycle": "public_repository",
   "qualified_owned_schema_ids": [],
   "repository_name": "CIRCUIT-PROTOTYPING",
   "source_metadata": {
     "path": "repository-domain.json",
-    "sha256": "3d53244a3a5e6cec8acfa5b3fe6c0e9c2bf0142e9793f8935746d21349d1ca79"
+    "sha256": "756fd41019252ba75903273e136976d3953ea8323e719b8138ab7ba81aaab7bd"
   }
 }

@@ -12,6 +12,8 @@ CIRCUIT-PROTOTYPING — repository foundation
 
 Circuit Prototyping is being built to turn one pinned chip design into FPGA emulation and prototype runs whose evidence can be checked afterwards. That evidence covers the design taken in, every substitution made for the FPGA, the partition across FPGAs, the links between them, the run itself, the debug captures and the host side of a hybrid run.
 
+Circuit Prototyping is part of the **SC Neuromorphic Computing Systems** group (SC-NEUROMORPHIC-COMPUTING-SYSTEMS). The [group and project map](https://github.com/anulum/sc-neurocore/blob/main/docs/ecosystem.md) shows the whole programme and where this repository sits in it.
+
 **What this checkout holds:** repository validation tooling and documentation only. Full foundation qualification is in progress.
 
 There is no intake, conversion, partition or run command, no registered record format, and no board, bitstream or prototype run.
