@@ -1,0 +1,19 @@
+{
+  "creators": [
+    {
+      "affiliation": "ANULUM",
+      "name": "Šotek, Miroslav",
+      "orcid": "0009-0009-3560-0851"
+    }
+  ],
+  "description": "Architecture-only repository validation tooling and design for checkable FPGA emulation and prototype evidence: design intake, conversion, partition, inter-FPGA links, runs and debug captures. No intake, conversion, partition or run command, registered record format, board, bitstream or prototype result is released.",
+  "keywords": [
+    "FPGA prototyping",
+    "hardware emulation",
+    "partition equivalence",
+    "evidence provenance"
+  ],
+  "license": "AGPL-3.0-or-later",
+  "title": "Circuit Prototyping",
+  "upload_type": "software"
+}
