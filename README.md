@@ -81,7 +81,7 @@ A run record will name, for every phase, whether that phase was virtual, built o
 
 **Hybrid runs.** A hybrid run also binds its host-side transactors and virtual-platform models, by digest.
 
-**Physical runs.** A physical run is an evaluation under conditions declared beforehand: temperature, voltage, clock, the number of trials and the acceptance rule. It is never a training reward.
+**Physical runs.** A physical run is an evaluation under conditions declared beforehand: temperature, voltage, clock, the number of trials, the acceptance rule, the unit of replication, and whether the claim covers one serial-numbered unit or a population of devices. It is never a training reward. A latency figure names where it was measured: on the fabric, or as seen by the host, which includes the bus, driver and operating system.
 
 **Formats.** None of these formats is registered or qualified by this foundation.
 

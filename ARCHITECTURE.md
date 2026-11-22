@@ -57,5 +57,6 @@ No intake, conversion, partition, interconnect, run, capture or co-emulation com
 - A converted or partitioned design is a prototype of the chip, never the chip.
 - A tool's utilisation and timing figures are estimates for the named part, corner and seed.
 - A measured figure belongs to one serial-numbered board unit.
+- A board's functional verdict counts mismatches against a reference trace and vector set fixed before the run, over every declared vector; it covers those vectors, not every input.
 
 Read [the documentation architecture](docs/ARCHITECTURE.md) for the planned records and their fields.
